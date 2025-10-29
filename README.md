@@ -50,7 +50,7 @@ It includes features such as study time, absences, health, and previous grades (
    - Encoded categorical features and normalized numeric ones.  
 
 2. **Model Training**  
-   - Used **Linear Regression** from Scikit-learn.  
+   - Implemented a Linear Regression model using Scikit-learn.  
    - Split the dataset using `train_test_split`.  
    - Saved the trained model as `model.pkl` using Pickle.  
 
@@ -61,7 +61,7 @@ It includes features such as study time, absences, health, and previous grades (
 4. **Prediction Output**  
    - Displays predicted grade (G3).  
    - Shows actual vs predicted graph using Matplotlib.  
-   - Provides performance feedback with a clean UI.  
+   - Provides performance feedback. 
 
 ---
  
