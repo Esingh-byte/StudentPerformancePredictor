@@ -119,6 +119,6 @@ With your virtual environment active and dependencies installed, run the Streaml
 
 ```bash
 streamlit run app.py
----
+
 
 
