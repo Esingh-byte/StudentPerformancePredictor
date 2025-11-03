@@ -20,7 +20,7 @@ st.markdown("""
 
     /* Main Background Gradient */
     .main {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #4169E1 0%, #ADD8E6 100%);
         font-family: 'Poppins', sans-serif;
     }
 
@@ -54,15 +54,15 @@ st.markdown("""
     }
 
     h2, h3 {
-        color: #667eea !important;
+        color: White !important;
         font-weight: 600 !important;
-        border-bottom: 3px solid #667eea;
+        border-bottom: 3px solid #F1EB9C;
         padding-bottom: 10px;
         margin-top: 20px !important;
     }
 
     h4 {
-        color: #764ba2 !important;
+        color: White !important;
         font-weight: 600 !important;
     }
 
@@ -78,9 +78,10 @@ st.markdown("""
 
     .stNumberInput > div > div > input:focus,
     .stSelectbox > div > div > select:focus {
-        border-color: #667eea !important;
-        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2) !important;
+    border-color: #4169E1 !important;
+    box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.2) !important;
     }
+
 
     /* Labels */
     .stNumberInput > label,
@@ -94,7 +95,7 @@ st.markdown("""
     /* Button */
     .stButton > button {
         width: 100%;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        background: linear-gradient(135deg, #4169E1 0%, #ADD8E6 100%) !important;
         color: white !important;
         border: none !important;
         border-radius: 15px !important;
@@ -295,27 +296,27 @@ with col1:
     st.markdown("###  Enter Your Academic Information")
 
     # Grade inputs
-    st.markdown("####  Period Grades")
+    st.markdown("####  Subject Grades")
     grade_col1, grade_col2 = st.columns(2)
 
     with grade_col1:
         g1 = st.number_input(
-            "First Period Grade (G1)",
+            "First Subject Grade (G1)",
             min_value=0.0,
             max_value=20.0,
             value=14.0,  # Default value
             step=0.5,
-            help="Your grade from the first grading period (0-20 scale)"
+            help="Your grade from the first subject (0-20 scale)"
         )
 
     with grade_col2:
         g2 = st.number_input(
-            "Second Period Grade (G2)",
+            "Second Subject Grade (G2)",
             min_value=0.0,
             max_value=20.0,
             value=16.0,  # Default value
             step=0.5,
-            help="Your grade from the second grading period (0-20 scale)"
+            help="Your grade from the second subject (0-20 scale)"
         )
 
     st.markdown("####  Study Habits & Lifestyle")
@@ -326,7 +327,7 @@ with col1:
         studytime = st.selectbox(
             "Weekly Study Time",
             options=[1, 2, 3, 4],
-            index=1,  # Default index (corresponds to '2-5 hours/week')
+            index=1,  # Default index (corresponds to '2-4 hours')
             format_func=lambda x: {
                 1: "1 hour",
                 2: "2 hour",
@@ -518,8 +519,6 @@ with col2:
 st.markdown("---")
 st.markdown("""
     <div style='text-align: center; color: white; padding: 30px; font-size: 0.9em;'>
-        <p style='font-weight: 600; font-size: 1.1em;'>🎓 Student Performance Predictor</p>
-        <p>Built with ❤️ using Streamlit & Machine Learning</p>
         <p style='font-size: 0.85em; opacity: 0.8;'>⚠️ Predictions are based on historical data patterns and should be used as guidance only.</p>
     </div>
 """, unsafe_allow_html=True)
