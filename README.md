@@ -15,6 +15,49 @@ An interactive **Machine Learning web app** built with **Streamlit** that predic
 
 ---
 
+
+## 📸 Screenshots
+
+Here is a look at the application's interface.
+
+**Main Prediction Page:**
+<br>
+<br>
+<img width="2554" height="1389" alt="Studentpredictor1" src="https://github.com/user-attachments/assets/5d5fcc30-2e48-41fb-8af6-f09f31d05965" />
+
+
+---
+
+**Prediction Result (Pass):**
+<br>
+<br>
+<img width="2560" height="1383" alt="Studentpredictor2" src="https://github.com/user-attachments/assets/c3c6c38b-e432-4511-8ae3-60e146207e78" />
+
+<br>
+<br>
+
+<img width="2523" height="1372" alt="Studentpredictor3" src="https://github.com/user-attachments/assets/ca8e460f-df3f-446a-a18e-f3a5bf956fe2" />
+
+---
+
+**Prediction Result (Fail with Tips):**
+<br>
+<br>
+<img width="2534" height="1376" alt="Studentpredictor5" src="https://github.com/user-attachments/assets/b71236dd-3591-4879-a820-62e515b26025" />
+
+<br>
+<br>
+
+<img width="2536" height="1374" alt="Studentpredictor6" src="https://github.com/user-attachments/assets/ef958cce-39d5-42c4-8e28-297920499311" />
+
+<br>
+<br>
+
+<img width="2555" height="1377" alt="Studentpredictor7" src="https://github.com/user-attachments/assets/2037843e-5522-46dd-b439-ed3bc401055c" />
+
+---
+
+
 ## 📊 Dataset  
 
 The dataset used for model training was taken from Kaggle: https://www.kaggle.com/datasets/alejandraalvarado/student-mat  
